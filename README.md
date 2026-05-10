@@ -1,1 +1,0 @@
-# CVSU-Hangout-Spot-Map
