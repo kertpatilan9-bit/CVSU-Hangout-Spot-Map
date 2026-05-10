@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CVSU Hangout Spot Map</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mainstyle.css">
+</head>
+<body>
+ 
+<header>
+  <div class="logo-area">
+    <img src="images (1).jpg" alt="Logo" width="60" height="60">
+    <div>
+      <h1>CVSU</h1>
+      <p class="subtitle">HANGOUT SPOT MAP</p>
+    </div>
+  </div>
+  <nav>
+    <a href="#" class="active">Home</a>
+    <a href="#">Spots</a>
+    <a href="#">Categories</a>
+    <a href="#">About</a>
+    <a href="#">Submit a Spot</a>
+  </nav>
+  <div class="header-icons">
+    <span>&#9825;</span>
+    <span>&#9679;</span>
+  </div>
+</header>
+ 
+<main>
+ 
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <h1 class="hero-title">CVSU</h1>
+      <h2 class="title-bottom">HANGOUT SPOT MAP</h2>
+      <p class="hero-desc">Discover the best places to chill, study, eat, and hangout near CVSU. Perfect for your vacant time!</p>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for a place...">
+        <button>&#128269;</button>
+      </div>
+      <div class="filters">
+        <span class="filter active">All</span>
+        <span class="filter">Food</span>
+        <span class="filter">Coffee</span>
+        <span class="filter">Study</span>
+        <span class="filter">Chill</span>
+        <span class="filter more">More Filters ▾</span>
+      </div>
+      <div class="stats">
+        <div class="stat-card">
+          <span class="stat-icon">📍</span>
+          <span class="stat-num">20+</span>
+          <span class="stat-label">Hangout Spots</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">👥</span>
+          <span class="stat-num">100+</span>
+          <span class="stat-label">Student Reviews</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">⭐</span>
+          <span class="stat-num">2.5</span>
+          <span class="stat-label">Average Rating</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">📍</span>
+          <span class="stat-num">Near</span>
+          <span class="stat-label">CVSU Campus</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-map">
+      
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.123!2d120.879!3d14.192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd7b1234567890%3A0xabcdef!2sCavite+State+University!5e0!3m2!1sen!2sph!4v1234567890"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </section>
+ 
+  <!-- BROWSE BY CATEGORY -->
+  <section class="categories">
+    <h3 class="section-title">BROWSE BY CATEGORY</h3>
+    <div class="category-grid">
+      <div class="cat-item active">
+        <span class="cat-icon">⊞</span>
+        <span>All</span>
+      </div>
+      <div class="cat-item">
+        <span class="cat-icon">☕</span>
+        <span>Coffee Shops</span>
+      </div>
+      <div class="cat-item">
+        <span class="cat-icon">🍽</span>
+        <span>Kainan / Food</span>
+      </div>
+      <div class="cat-item">
+        <span class="cat-icon">📖</span>
+        <span>Study Spots</span>
+      </div>
+      <div class="cat-item">
+        <span class="cat-icon">🌲</span>
+        <span>Chill Spots</span>
+      </div>
+      <div class="cat-item">
+        <span class="cat-icon">🎮</span>
+        <span>Entertainment</span>
+      </div>
+      <div class="cat-item">
+        <span class="cat-icon">💰</span>
+        <span>Budget Meals</span>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- POPULAR SPOTS -->
+  <section class="popular">
+    <div class="popular-header">
+      <h3 class="section-title">POPULAR SPOTS</h3>
+      <a href="#" class="view-all">View All Spots →</a>
+    </div>
+    <div class="spots-grid">
+ 
+      <div class="spot-card">
+        <div class="spot-img"><img src="spot1.jpg" alt="Kapehan sa Indang"></div>
+        <div class="spot-info">
+          <h4>Kapehan sa Indang</h4>
+          <span class="tag green-tag">Coffee Shop</span>
+          <div class="rating">⭐ 4.6 (32)</div>
+          <div class="spot-details">
+            <span>📶 Study-friendly · Wifi · Internet</span>
+            <span>🕐 7:00 AM - 11:00 PM</span>
+            <span>📍 1.8km from CVSU</span>
+          </div>
+          <button class="view-btn">View Details</button>
+        </div>
+      </div>
+ 
+      <div class="spot-card">
+        <div class="spot-img"><img src="spot2.jpg" alt="Tapsilogan sa Indang"></div>
+        <div class="spot-info">
+          <h4>Tapsilogan sa Indang</h4>
+          <span class="tag amber-tag">Budget Meal</span>
+          <div class="rating">⭐ 4.6 (32)</div>
+          <div class="spot-details">
+            <span>💵 Budget-friendly · Fast Service</span>
+            <span>🕐 7:00 AM - 11:00 PM</span>
+            <span>📍 1.8km from CVSU</span>
+          </div>
+          <button class="view-btn">View Details</button>
+        </div>
+      </div>
+ 
+      <div class="spot-card">
+        <div class="spot-img"><img src="spot3.jpg" alt="Fast Food sa Indang"></div>
+        <div class="spot-info">
+          <h4>Fast Food sa Indang</h4>
+          <span class="tag blue-tag">Yummy Spot</span>
+          <div class="rating">⭐ 4.6 (32)</div>
+          <div class="spot-details">
+            <span>💵 Budget-friendly · Fast Service</span>
+            <span>🕐 7:00 AM - 11:00 PM</span>
+            <span>📍 1.8km from CVSU</span>
+          </div>
+          <button class="view-btn">View Details</button>
+        </div>
+      </div>
+ 
+      <div class="spot-card">
+        <div class="spot-img"><img src="spot4.jpg" alt="Lugawan sa Indang"></div>
+        <div class="spot-info">
+          <h4>Lugawan sa Indang</h4>
+          <span class="tag green-tag">The Best Spot</span>
+          <div class="rating">⭐ 4.6 (32)</div>
+          <div class="spot-details">
+            <span>💵 Budget-friendly · Fast Service</span>
+            <span>🕐 7:00 AM - 11:00 PM</span>
+            <span>📍 1.8km from CVSU</span>
+          </div>
+          <button class="view-btn">View Details</button>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- PANELS -->
+  <section class="bottom-panels">
+ 
+    <div class="panel">
+      <h3 class="section-title">TOP PICKS FOR YOU</h3>
+      <div class="picks-list">
+        <div class="pick-item">
+          <img src="pick1.jpg" alt="Best Study Spot">
+          <div>
+            <strong>Best Study Spot</strong>
+            <p>Quiet places with fast wifi and internet</p>
+          </div>
+          <span></span>
+        </div>
+        <div class="pick-item">
+          <img src="pick2.jpg" alt="Best Budget Meals">
+          <div>
+            <strong>Best Budget Meals</strong>
+            <p>Affordable and tasty food places</p>
+          </div>
+          <span></span>
+        </div>
+        <div class="pick-item">
+          <img src="pick3.jpg" alt="Chill Places">
+          <div>
+            <strong>Chill Places</strong>
+            <p>Relax and unwind with friends</p>
+          </div>
+          <span></span>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="panel">
+      <h3 class="section-title">HOW IT WORKS?</h3>
+      <div class="steps-list">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div>
+            <strong>Find a Study Spot</strong>
+            <p>Browse spots near CVSU on our interactive map</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div>
+            <strong>Check Details & Reviews</strong>
+            <p>See ratings, photos, and reviews from other students</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div>
+            <strong>Visit & Enjoy!</strong>
+            <p>Go to your chosen spot and make the most of your time</p>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="panel submit-panel">
+      <h3 class="section-title">SUBMIT A SPOT</h3>
+      <p>Know a great spot that should be on the map? Share it with other CVSU students!</p>
+      <button class="submit-btn">+ Submit a Spot</button>
+    </div>
+ 
+  </section>
+ 
+</main>
+ 
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+ 
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <img src="images (1).jpg" alt="Logo" width="40" height="40">
+        <div>
+          <strong>CVSU</strong>
+          <span>HANGOUT SPOT MAP</span>
+        </div>
+      </div>
+      <p>Your go-to map for the best hangout, study, and food spots near CVSU - Indang Campus.</p>
+      <div class="socials">
+        <a href="#">f</a>
+        <a href="#">ig</a>
+        <a href="#">tk</a>
+      </div>
+    </div>
+ 
+    <div class="footer-col">
+      <h4>QUICK LINKS</h4>
+      <a href="#">Home</a>
+      <a href="#">Spots</a>
+      <a href="#">Categories</a>
+      <a href="#">About</a>
+      <a href="#">Submit a Spot</a>
+    </div>
+ 
+    <div class="footer-col">
+      <h4>CATEGORIES</h4>
+      <a href="#">Coffee Shops</a>
+      <a href="#">Kainan / Food</a>
+      <a href="#">Study Spot</a>
+      <a href="#">Chill Spots</a>
+      <a href="#">Entertainment</a>
+    </div>
+ 
+    <div class="footer-col">
+      <h4>CONTACT US</h4>
+      <span>✉ cvsuhangoutmap@gmail.com</span>
+      <span>📍 CVSU - Indang Campus, Indang, Cavite, Philippines</span>
+      <span>📞 0912345678</span>
+    </div>
+ 
+  </div>
+  <div class="footer-bottom">
+    © 2026 CVSU Hangout Spot Map. All rights reserved.
+  </div>
+</footer>
+ 
+</body>
+</html>
